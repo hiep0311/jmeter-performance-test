@@ -70,7 +70,7 @@ Duration: 60 seconds
 
 Requests:
 
-GET /wiki/Computer
+GET /wiki/Computer  
 
 GET /wiki/Internet
 
@@ -84,19 +84,41 @@ GET /wiki/Internet
 
 
 
-\## Summary Report
+| Scenario | Avg Response Time | Throughput | Error Rate |
+
+|--------|----------------|------------|-----------|
+
+| Basic | 200 ms | 15/sec | 0% |
+
+| Heavy | 350 ms | 40/sec | 0% |
+
+| Custom | 300 ms | 25/sec | 0% |
+
+
+
+---
+
+
+
+\# Test Result Screenshot
 
 
 
 !\[Summary Report](summary-report.png)
 
-\## Conclusion
+
+
+---
 
 
 
-The performance test shows that the website handled the simulated load without errors.
+\# Conclusion
 
-Average response time remained stable even with increased users.
 
-This indicates that the system can support moderate concurrent traffic.
+
+The website handled the simulated load without errors.  
+
+Average response time remained stable during testing.  
+
+The system is capable of handling moderate traffic efficiently.
 
