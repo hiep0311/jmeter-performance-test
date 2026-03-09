@@ -90,3 +90,13 @@ GET /wiki/Internet
 
 !\[Summary Report](summary-report.png)
 
+\## Conclusion
+
+
+
+The performance test shows that the website handled the simulated load without errors.
+
+Average response time remained stable even with increased users.
+
+This indicates that the system can support moderate concurrent traffic.
+
